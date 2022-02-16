@@ -16,6 +16,10 @@ void Propietario::setPropiedad(Propiedad propiedad){
     this->propiedad = propiedad;
 }
 
+Propiedad Propietario::getPropiedad(){
+    return this->propiedad;
+}
+
 void Propietario::mostrarDatosPropietario(){ // Para mostrar los datos
     cout << "El nombre es: " << nombre << "\n";
     cout << "La identificacion es: " << identificacion << "\n";
