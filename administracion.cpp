@@ -55,12 +55,25 @@ void Administracion::imprimirPropietarios(){
 }
 
 void Administracion::imprimirPropietariosConParqueadero(){
-    Propiedad propiedad;
+    Propietario propietario;
     for(int i = 0; i < propietarios.size(); i++){
-        if(propiedad.getParqueadero(propietarios[i]) =true){
+        propietario=propietarios[i];
+        if(propietario.getPropiedad()).getParqueadero=true){
             propietarios[i].mostrarDatosPropietario();
         }
     }
+}
+
+int Administracion::imprimirPropietariosConParqueadero(){
+    Propietario propietario;
+    int parqueadero=0;
+    for(int i = 0; i < propietarios.size(); i++){
+        propietario=propietarios[i];
+        if(propietario.getPropiedad()).getParqueadero=true){
+            propietario+=1;
+        }
+    }
+    return parqueadero;
 }
 
 void Administracion::recaudarAdministracion(){
