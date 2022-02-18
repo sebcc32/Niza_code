@@ -14,7 +14,7 @@ void Administracion::inicializarDatos(){
     propiet4.setIdentificacion(31321432);
     propiet5.setNombre("Camilo Torres");
     propiet5.setIdentificacion(4476283);
-    propiet6.setNombre("Sebastian Agudelo);
+    propiet6.setNombre("Sebastian Agudelo");
     propiet6.setIdentificacion(30432176);
 
     prop1.setnumIdentificacion(101);
