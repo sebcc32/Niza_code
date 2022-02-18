@@ -19,6 +19,10 @@ void Propiedad::setParqueadero(bool parqueadero){
     this->parqueadero = parqueadero;
 }
 
+void Propiedad::setCupo(bool cupo){
+    this->cupo = cupo;
+}
+
 bool Propiedad::getParqueadero(){
     return this->parqueadero;
 }
