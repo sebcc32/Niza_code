@@ -17,7 +17,7 @@ class Propiedad{
         void setPiso(int piso);
         void setAreaProp(float areaProp);
         void setParqueadero(bool parqueadero);
-        void setCupo(bool cupo)
+        void setCupo(bool cupo);
         bool getParqueadero();
         float getArea();
         void mostrarDatosPropiedad();
