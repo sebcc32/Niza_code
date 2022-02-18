@@ -19,5 +19,7 @@ public:
     void imprimirUnPropietario();
     void imprimirPropietarios();
     void recaudarAdministracion();
+    void imprimirCantidadParqueadero();
+    void imprimirSegunArea();
 };
 #endif

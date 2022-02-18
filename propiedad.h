@@ -1,7 +1,6 @@
 #ifndef PROPIEDAD_H
 #define PROPIEDAD_H
 #include <iostream>
-#include "administracion.h"
 
 using namespace std;
 
@@ -11,14 +10,15 @@ class Propiedad{
         int piso;
         float areaProp;
         bool parqueadero;
-
+        bool cupo;
     public:
         void setPagarRecargo(float);
         void setnumIdentificacion(double numIdentificacion);
         void setPiso(int piso);
         void setAreaProp(float areaProp);
         void setParqueadero(bool parqueadero);
-        bool getParqueadero(Administracion parqueadero);
+        bool getParqueadero();
+        float getArea();
         void mostrarDatosPropiedad();
 };
 #endif

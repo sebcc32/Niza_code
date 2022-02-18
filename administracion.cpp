@@ -55,25 +55,29 @@ void Administracion::imprimirPropietarios(){
 }
 
 void Administracion::imprimirPropietariosConParqueadero(){
-    Propietario propietario;
     for(int i = 0; i < propietarios.size(); i++){
-        propietario=propietarios[i];
-        if(propietario.getPropiedad()).getParqueadero=true){
+        if(propietarios[i].getPropiedad().getParqueadero()==true){
             propietarios[i].mostrarDatosPropietario();
         }
     }
 }
 
-int Administracion::imprimirPropietariosConParqueadero(){
-    Propietario propietario;
-    int parqueadero=0;
+void Administracion::imprimirCantidadParqueadero(){
+    int cantParqueadero=0,cantNoParqueadero=0;
     for(int i = 0; i < propietarios.size(); i++){
-        propietario=propietarios[i];
-        if(propietario.getPropiedad()).getParqueadero=true){
-            propietario+=1;
+        if(propietarios[i].getPropiedad().getParqueadero()==true){
+            cantParqueadero+=1;
+        }else{cantNoParqueadero+=1;}
+    }
+    cout<<"Con parqueadero: "<<cantParqueadero<<"\nSin parqueadero"<<cantNoParqueadero;
+}
+
+void Administracion::imprimirSegunArea(){
+    for(int i = 0; i < propietarios.size(); i++){
+        if(propietarios[i].getPropiedad().getArea()>=50){
+            
         }
     }
-    return parqueadero;
 }
 
 void Administracion::recaudarAdministracion(){

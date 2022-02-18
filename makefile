@@ -1,5 +1,5 @@
 all: compilar clean
-compilar: propietario propiedad administracion main
+compilar: propiedad propietario administracion main
 	g++ -o Salida administracion.o propiedad.o propietario.o main.o
 administracion: administracion.cpp administracion.h propiedad.h propietario.h
 	g++ -c administracion.cpp

@@ -1,5 +1,5 @@
 #ifndef PROPIETARIO_H
-#define PORPIETARIO_H
+#define PROPIETARIO_H
 #include <iostream>
 #include "propiedad.h"
 
@@ -16,6 +16,7 @@ class Propietario{
         void setNombre(string nombre);
         void setPropiedad(Propiedad propiedad);
         double getIdentificacion();
+        Propiedad getPropiedad();
         void mostrarDatosPropietario();
 };
 #endif

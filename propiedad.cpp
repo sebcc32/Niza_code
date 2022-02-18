@@ -19,7 +19,7 @@ void Propiedad::setParqueadero(bool parqueadero){
     this->parqueadero = parqueadero;
 }
 
-bool Propiedad::getParqueadero(Administracion parqueadero){
+bool Propiedad::getParqueadero(){
     return this->parqueadero;
 }
 
